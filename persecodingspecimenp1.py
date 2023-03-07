@@ -23,3 +23,18 @@ else:
     print("on the small side")
     #end
 
+num1= int(input())
+operator= input()
+num2 = int(input())
+result= ""
+
+if operator == "*":
+  result = num1 * num2
+elif operator == "/":
+    result = num1 / num2
+elif operator == "+":
+      result = num1 + num2
+elif operator == "-":
+        result= num1 - num2
+print(result)
+#end
